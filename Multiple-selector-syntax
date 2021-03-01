@@ -1,0 +1,39 @@
+MULTIPLE SELECTORS
+
+selector 1, selector 2 {
+    Task to Complete....
+}
+
+
+eg. <h1>Hello World</h1>
+    <p>How are you today?</p>
+    
+   h1, p {
+      color: red;
+   }
+   
+   Hierarchical Selectors
+   
+   selector1 selector2 {
+    ///no comma and must have space
+    // parent(selector1) child(selector2)
+   }
+   
+   eg. .container-fluid h1 {color: red;}
+   
+   div .container-fluid
+      h1 #title
+          Hello World
+   
+   ****IMPORTANT TO READ RIGHT TO LEFT 
+     <--------
+     div .title {color: red;}
+     
+    Combination selectors
+    
+    element_selector.class/Id_selector {color: red;}
+    
+    no space between element and class/Id
+    
+   *****READ LEFT TO RIGHT AND THEY MUST BE IN SAME ELEMENT
+   
